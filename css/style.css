@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mexendo na barra header onde fica o menu e a logo do VESTE VC*/
+
+header img{
+    position: relative;
+    width: 10%;
+    top: 3rem;
+    left: 1rem;
+}
+.menu {
+    position:relative;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    
+}
+
+.menu ul {
+    display: flex;
+    width: auto;
+    font-size:large;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li a {
+    display: flex;
+    margin: 1.25rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*Modal*/
+
+.modal-content {
+    margin: 500px 0px 0px 0px;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body input {
+    margin: 5px 50px 5px 50px;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+
+.modal-footer button {
+    padding: 0px 60px 0px 60px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.modal-footer button:hover {
+    padding: 0px 60px 0px 60px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/* _____________________________________________________________________________*/
+ 
+/* Imagens Mais Botoes de Like e Deslike*/
+
+.photos-one-session {
+    position: relative;
+    display: flex;
+}
+.photos-one-session img{
+    width: 100%;
+}
+.icons-one-session {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    bottom: 0;
+    width: 50%;
+    padding: 1rem 1rem 1rem 1rem;
+    color: rgba(255, 255, 255, 100);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*photo-two-session*/
+
+.photos-two-session {
+    position: relative;
+    display: flex;
+}
+.photos-two-session img{
+    width: 100%;
+    padding: .5rem .5rem .5rem .5rem;
+    margin: 0rem .5rem 0rem .5rem;
+}
+
+.icons-two-session   {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 24%;
+    margin: 0rem 0rem .5rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    color: rgba(255, 255, 255, 100);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*photo-three-session*/
+.photos-three-session {
+    position: relative;
+    display: flex;
+}
+.photos-three-session img{
+    width: 100%;
+    padding: 0.5rem;
+}
+.icons-three-session {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 32.3%;
+    margin: 0rem 0rem .5rem .5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    color: rgba(255, 255, 255, 100);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*footer page*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #FFFFFF;
+    color:#FFFFFF;
+    background-color: #000000;
+}
+.footer img{
+    width: 20%;
+    margin: 2%;
+}
+ .reserverd-rights {
+    color:#FFFFFF;
+    background-color: #000000;
+    padding: 2%;
+}
